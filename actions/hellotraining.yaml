@@ -1,0 +1,13 @@
+---
+name: hello
+pack: testpack5
+runner_type: "python-script"
+description: hello python 
+enabled: true
+entry_point : hellotraining.py
+parameters: 
+  message:
+    type: string 
+    description: print hello
+    required: true
+    position: 1
